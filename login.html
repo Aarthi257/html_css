@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>LOGIN</title>
+    <style>
+        body{
+            background-color: #24374e;
+        }
+        .container{
+                display:flex;
+                flex-direction:column;
+                height:100%;
+                width: 100%;
+                font-size:x-large; 
+                  
+            }
+            .topnav{
+                background-color:#a8d0e6;
+                overflow:hidden;
+                color:#f76c6c;
+                font-size:20px;
+                border:2px solid #24374e;
+            }
+            .topnav>div{
+                padding:3px 10px;
+                float:left;
+                text-align: center;  
+            }
+            .topnav>div:hover{
+                background-color: #f76c6c;
+                color: white;
+            }
+        .login{
+            display:grid;
+            margin:100px 400px;
+            padding:50px;
+            border:2px solid #f76c6c;
+            border-radius: 3px;
+            text-align: center;
+            height:400px;
+            width:300px;
+            color:#f8e9a1;
+        }
+        .head{
+                height:120px;
+                background-color: #a8d0e6;
+                text-align: center;
+                color: #f76c6c;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>VEHICLE SERVICES</h1>     
+        </div>
+        <div class="topnav">
+            <div class="active" href="#home">HOME</div>
+            <div href="#about">ABOUT US</div>
+            <div href="#service">SERVICES</div>
+            <div href="#contact">CONTACT US</div>
+            <div href="#login">LOGIN</div>
+        </div> 
+        <div class="login">
+        <form>
+        <div class="lg">
+            <p style="text-align: center; background-color: #f76c6c;" >LOGIN</p>
+        </div>
+        <label for="username">USERNAME:&nbsp;&nbsp;</label>
+        <input type="text" id="username">
+        <br>
+        <br>
+        <label for="secret">PASSWORD:&nbsp;&nbsp;</label>
+        <input type="password" id="secret">
+        <br><br><br>
+        <input type="submit" style="color:white; background-color: cornflowerblue; height:50px; width:80px; font-size: medium;"><br><br>
+        <a href="" style="color:#a8d0e6">New here?<br>Sign up</a>
+    </form>
+    </div>
+</div>
+<footer style="color:#374785; background-color: #f76c6c; text-align: center; margin-top:15px;">@2023 VehicleService, all rights reserved</footer>
+</body>
+</html>

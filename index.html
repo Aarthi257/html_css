@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: #24374e;
+            }
+            .container{
+                display:flex;
+                flex-direction:column;
+                height:100%;
+                width: 100%;
+                font-size:x-large;      
+            }
+            .topnav{
+                background-color:#a8d0e6;
+                overflow:hidden;
+                color:#f76c6c;
+                font-size:20px;
+            }
+            .topnav>div{
+                padding:3px 10px;
+                float:left;
+                text-align: center;  
+            }
+            .topnav>div:hover{
+                background-color: #f76c6c;
+                color: white;
+            }
+            .head{
+                height:120px;
+                background-color: #a8d0e6;
+                text-align: center;
+                color: #f76c6c;
+            }
+            .content{
+                display:flex;
+                flex-direction: row;
+                height:500px;  
+            }
+            .header{
+                background-color: #24374e;
+                color:#f8e9a1;
+                font-size: large;
+                padding-top:40px;
+                height:100px;
+                padding-bottom:30px;
+                text-align: center;
+            }
+            .header>p{
+                font-size: large;
+            }
+            .how{
+                background-color: #24374e;
+                color:#f8e9a1;
+                font-size: larger;
+                padding-top:40px;
+                height:100px;
+                padding-bottom:30px;
+                text-align: center; 
+            }
+            .how>p{
+                font-size: large;
+            }
+            .two{
+                justify-content: center;
+                height:500px;
+                width:50%;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-rows:200px 200px;
+                margin:75px 300px;
+            }
+            .sub{
+                background-color: #a8d0e6;
+                border:2px solid #f76c6c;
+                padding:5px 5px 5px 5px;
+                text-align: center;
+                margin:20px;
+                font-size: medium;
+            }
+            .sub:hover{
+                background-color: #374785;
+                color: #f76c6c;
+            }
+            .process{
+                display:grid;
+                grid-template-columns: 300px 300px 300px 300px;
+                margin:10px;
+                height:200px;
+            }
+            .process>div{
+                padding:25px;
+                text-align: center;
+                background-color: #a8d0e6;
+                color:#f76c6c;
+                border-radius:100px;
+                border:2px solid #f76c6c;
+                margin:20px;
+
+            }
+            .make{
+                background-color: #24374e;
+                color:#f8e9a1;
+                font-size: larger;
+                padding-top:40px;
+                height:100px;
+                padding-bottom:30px;
+                text-align: center; 
+            }
+            .make>p{
+                font-size: large;
+            }
+            .footer{
+                display:flex;
+                height:300px;
+                flex-direction: row;
+            }
+            .f1{
+                margin:3px;
+                width:30%;
+                height:100%;
+            }
+            .f2{
+                margin:3px;
+                width:50%;
+                height:100%;
+            }
+            .f3{
+                margin:3px;
+                width:20%;
+                height:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="head">
+                <h1>VEHICLE SERVICES</h1>     
+            </div>
+            <div class="topnav">
+                <div class="active" href="#home">HOME</div>
+                <div><a href="./project.html">ABOUT US</a></div>
+                <div href="#service">SERVICES</div>
+                <div><a href="./project2.html">CONTACT US</a></div>
+                <div><a href="./login.html">LOGIN</a></div>
+            </div> 
+            <hr style="height:3px; width:100%; color:#374785; background-color: #374785;">
+            <div class="header">OUR SERVICES
+                <p>We offer full Auto-repair and Maintenance Services</p>
+            </div>
+            <hr style="height:2px; width:50%; color:#374785; background-color: #374785;">
+            <div class="content">
+                <div class="two">
+                    <div class="sub">
+                        <a href="#service" style="text-decoration:none; color: black;">AC SERVICES
+                        <div style="margin:10px"><img src="./air-conditioner.png" height="50%" width="50%"></div>
+                    </a></div>
+                  
+                    <div class="sub">CLEANING AND DETAILING
+                        <div><img src="./car-service.png" height="50%" width="50%"></div>
+                    </div>
+                    <div class="sub">DENTING PAINTING
+                        <img src="./spray-gun.png" height="50%" width="50%">
+                    </div>
+                    <div class="sub">LIGHTS AND FITMENTS<br><br>
+                        <div><img src="./car-light.png" height="50%" width="50%"></div>
+                    </div>
+                    <div class="sub">BATTERIES&nbsp;
+                        <img src="./accumulator.png" height="50%" width="50%">
+                    </div>
+                    <div class="sub">PERIODIC SERVICES
+                        <img src="./management-service.png" height="50%" width="50%">
+                    </div>
+                </div>
+            </div>
+            <hr style="height:3px; width:100%; color:#374785; background-color: #374785;">
+            <div class="how">
+                HOW IT WORKS
+                <p>Booking your required services is now only a 4 step process</p>
+            </div>
+            <hr style="height:2px; width:50%; color:#374785; background-color: #374785;">
+            <div class="process">
+                <div>1.CHOOSE YOUR DESIRED SERVICES</div>
+                <div>2.CHOOSE YOUR NEAREST SERVICE PROVIDER</div>
+                <div>3.FILL IN YOUR DETAILS</div>
+                <div>4.SELECT THE DATE AND TIME</div>
+            </div>
+            <hr style="height:3px; width:100%; color:#374785; background-color: #374785;">
+            <div class="make">
+                WE REPAIR ALL MAKES OF AUTOMOBILES
+                <p>We work with all makes and models of vehicles</p>
+            </div>
+            <hr style="height:2px; width:50%; color:#374785; background-color: #374785;">
+
+            <div class="footer">
+                <div class="f1" style=" text-align: center; background-color:#374785;">
+                    <h3 style="color: #f76c6c; text-align: center;">CONTACT</h3>
+                    <p style="color:#a8d0e6">+91 1234567892</p>
+                    <p style="color:#a8d0e6">mail: vehicleservice@gmail.com</p>
+                </div>
+                <div class="f2"  style=" text-align: center; background-color:#374785;">
+                    <h3 style="color: #f76c6c; text-align: center;">BRANDS</h3>
+                    <p style="color:#a8d0e6">Audi</p>
+                    <p style="color:#a8d0e6">Bentley</p>
+                    <p style="color:#a8d0e6">BMW</p>
+                    <p style="color:#a8d0e6">Chevrolet</p>
+                </div>
+                <div class="f3"  style=" text-align:center; background-color:#374785; padding:3px;">
+                    <h3 style="color: #f76c6c; text-align: center;">ABOUT US</h3>
+                    <p style="color:#a8d0e6">FAQs</p>
+                    <p style="color:#a8d0e6">Contact Us</p>
+                    <p style="color:#a8d0e6">Our Services</p>
+                    <p style="color:#a8d0e6">About Us</p>
+                </div>
+            </div>
+        </div>
+        <footer style="color:#374785; background-color: #f76c6c; text-align: center; margin-top:15px;">@2023 VehicleService, all rights reserved<br>DESIGNED BY AARTHI.B</footer>
+    </body>
+</html>
